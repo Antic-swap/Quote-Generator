@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./Untitled\ design\ \(5\).png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    
+}
+.main{
+    height: 60%;
+    width: 50%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(112, 249, 240);
+    padding: 20px;
+    box-shadow: 0px 0px 10px black;
+   
+
+
+
+}
+p{
+    font-size: 20px;
+    font-weight: 700;
+
+}
+h2{
+    font-size: 30px;
+    font-weight: 600;
+    font-style: oblique;
+    /* border: 1px solid black; */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+
+}
+button{
+    padding: 6px;
+    width: 80px;
+    font-style: inherit;
+    font-weight: 600;
+    font-size: large;
+    background-color: rgba(240, 248, 255, 0);
+    border-style: none;
+    box-shadow: 0px 0px 10px black;
+    border-radius: 10px;
+    color: azure;
+}
+button:hover{
+    transition: all;
+    box-shadow: 0px 0px 5px white;
+}
+button:active{
+    transition: all;
+    scale: 0.97;
+}
+h3{
+    color: rgb(5, 249, 78);
+}
